@@ -119,4 +119,4 @@ This repository is for educational and portfolio purposes only. It is not a medi
 **Balakrishna Arigala**
 
 - [GitHub](https://github.com/balakrishna-arigala26)
-- [LinkedIn](https://www.linkedin.com/in/balakrishna/)
+- [LinkedIn](https://www.linkedin.com/in/balakrishna-arigala/)
