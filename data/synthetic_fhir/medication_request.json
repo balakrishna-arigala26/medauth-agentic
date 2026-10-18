@@ -1,0 +1,15 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "medication-request-demo-001",
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "text": "Synthetic example medication"
+  },
+  "subject": {
+    "reference": "Patient/patient-demo-001"
+  },
+  "encounter": {
+    "reference": "Encounter/encounter-demo-001"
+  }
+}

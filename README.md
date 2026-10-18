@@ -6,7 +6,7 @@ MedAuth-Agentic explores how healthcare domain knowledge, structured healthcare 
 
 The project is being developed incrementally using **synthetic healthcare data only**.
 
-> **Current status:** Phase 1 healthcare foundations and documentation are complete. Phase 2, focused on FHIR resources and APIs, is next. Application features listed below are planned unless explicitly marked as implemented.
+> **Current status:** Phase 1 is complete. Day 4 — synthetic FHIR R4 resource basics — is complete, with seven synthetic resource files and basic structural/reference checks. Day 5 — REST API fundamentals and FHIR search — is next. Full official FHIR R4 conformance validation has not yet been performed. Application features listed below are planned unless explicitly marked as implemented.
 
 ---
 
@@ -61,10 +61,37 @@ The project is being developed incrementally using **synthetic healthcare data o
 | Phase | Focus area | Status |
 |---|---|---|
 | **Phase 1** | Healthcare domain, privacy, terminology, and standards | **Completed — learning and documentation** |
-| **Phase 2** | FHIR resources, APIs, validation, normalization, and SQL | **Next** |
+| **Phase 2** | FHIR resources, APIs, validation, normalization, and SQL | **In progress — Day 4 complete; Day 5 next** |
 | **Phase 3** | Retrieval-Augmented Generation (RAG) and retrieval evaluation | **Planned** |
 | **Phase 4** | Agentic workflow, testing, and project finalization | **Planned** |
 
+
+---
+
+## 🩺 Day 4: Synthetic FHIR R4 Resources
+
+**Status: Completed — basic structural and reference checks passed.**
+
+The following fictional FHIR R4 resource examples are available in
+`data/synthetic_fhir/`:
+
+| File | Resource type | Purpose |
+|---|---|---|
+| `patient.json` | `Patient` | Basic synthetic patient details |
+| `encounter.json` | `Encounter` | A healthcare encounter |
+| `condition.json` | `Condition` | A documented condition |
+| `observation.json` | `Observation` | A clinical observation or measurement |
+| `medication_request.json` | `MedicationRequest` | A medication order/request |
+| `service_request.json` | `ServiceRequest` | A requested service or procedure |
+| `document_reference.json` | `DocumentReference` | A reference to supporting documentation |
+
+The integrated basic check confirmed that all seven files load, expected resource
+types and unique IDs are present, and local resource references resolve.
+
+**Validation scope:** These checks are introductory structural/reference checks.
+They do not establish full conformance with the official FHIR R4 specification.
+
+**Next learning milestone:** Day 5 — REST API fundamentals and FHIR search.
 
 ---
 

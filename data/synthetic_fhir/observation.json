@@ -1,0 +1,15 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-demo-001",
+  "status": "final",
+  "code": {
+    "text": "Synthetic mobility assessment score"
+  },
+  "subject": {
+    "reference": "Patient/patient-demo-001"
+  },
+  "encounter": {
+    "reference": "Encounter/encounter-demo-001"
+  },
+  "valueInteger": 6
+}

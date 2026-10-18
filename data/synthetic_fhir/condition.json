@@ -1,0 +1,21 @@
+{
+  "resourceType": "Condition",
+  "id": "condition-demo-001",
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
+      }
+    ]
+  },
+  "code": {
+    "text": "Synthetic example: knee pain"
+  },
+  "subject": {
+    "reference": "Patient/patient-demo-001"
+  },
+  "encounter": {
+    "reference": "Encounter/encounter-demo-001"
+  }
+}

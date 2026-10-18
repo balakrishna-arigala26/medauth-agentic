@@ -1,0 +1,20 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "service-request-demo-001",
+  "status": "active",
+  "intent": "order",
+  "code": {
+    "text": "Synthetic example: knee imaging request"
+  },
+  "subject": {
+    "reference": "Patient/patient-demo-001"
+  },
+  "encounter": {
+    "reference": "Encounter/encounter-demo-001"
+  },
+  "reasonReference": [
+    {
+      "reference": "Condition/condition-demo-001"
+    }
+  ]
+}

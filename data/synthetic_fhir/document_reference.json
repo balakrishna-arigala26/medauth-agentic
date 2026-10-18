@@ -1,0 +1,19 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-reference-demo-001",
+  "status": "current",
+  "type": {
+    "text": "Synthetic supporting clinical note"
+  },
+  "subject": {
+    "reference": "Patient/patient-demo-001"
+  },
+  "context": {
+    "encounter": [
+      {
+        "reference": "Encounter/encounter-demo-001"
+      }
+    ]
+  },
+  "description": "Synthetic note supporting the imaging request"
+}
